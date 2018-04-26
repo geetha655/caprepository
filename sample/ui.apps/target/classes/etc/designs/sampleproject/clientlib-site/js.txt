@@ -1,0 +1,6 @@
+#base=js
+script.js
+jquery-min.js
+jquery.backtotop.js
+jquery.flexslider-min.js
+jquery.mobilemenu.js

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:language="fr"
+    jcr:mixinTypes="[mix:language]"
+    jcr:primaryType="nt:folder">
+    <copyright
+        jcr:mixinTypes="[sling:Message]"
+        jcr:primaryType="nt:folder"
+        sling:key="&amp;copy; {0} sampleproject Site Site. All rights reserved."
+        sling:message="&amp;copy; {0} sampleproject Site Site. Tous droits réservés."/>
+    <en
+        jcr:language="en"
+        jcr:mixinTypes="[mix:language]"
+        jcr:primaryType="nt:folder">
+        <acceptMessage
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="page.acceptMessage"
+            sling:message="Accept &amp; Close"/>
+        <cookieMessage
+            jcr:primaryType="sling:MessageEntry"
+            sling:key="page.cookieMessage"
+            sling:message="We use cookies to provide the best possible experience for you. By closing this message you agree to our use of cookies. You can learn more about cookies on our privacy and settings page"/>
+    </en>
+</jcr:root>
